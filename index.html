@@ -8,26 +8,32 @@
 		<link rel="stylesheet" href="screen.css">
 	</head>
 	<body>
-		<h1>HelloWorld</h1>
 		<img id="Logo" src="Image/Logo.png" alt="Logo">
+		<h1>HelloWorld</h1>
 		<img src="Image/Computer image.png" alt="Vintage mac">
 		<section>
-			<h2>History</h2>
-			<p>Test programs have always existed in software development, but the tradition of using "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language. The example was taken from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, one of the co-creators of the Unix operating system.</p>
+			<div id="HistoryBox">
+				<h2 id="HistoryTitle">History</h2>
+				<p>Test programs have always existed in software development, but the tradition of using "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language. The example was taken from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, one of the co-creators of the Unix operating system.</p>
+			</div>
 		</section>
 		<section>
-			<h2>Example</h2>
-			<p id="example">Here is a JavaScript example:</p>
-			<code id="code">Here is a JavaScript example:
-				&lt;!DOCTYPE HTML&gt;
-				&lt;html&gt;
-					&lt;body&gt;
-						&lt;script&gt;
-					  		alert('Hello, world!');
-						&lt;/script&gt;
-					&lt;/body&gt;
-				&lt;/html&gt;
-			</code>
+			<div id="ExampleBox">
+				<h2 id="ExampleTitle">Example</h2>
+				<p id="example">Here is a JavaScript example:</p>
+				<div id="CodeBox">
+					<code id="code">
+						&lt;!DOCTYPE HTML&gt;
+						&lt;html&gt;
+						 &lt;body&gt;
+						  &lt;script&gt;
+					  	   alert('Hello, world!');
+						  &lt;/script&gt;
+						 &lt;/body&gt;
+						&lt;/html&gt;
+					</code>
+				</div>
+			</div>
 		</section>
 		<script src="index.js"></script>
 	</body>

@@ -1,33 +1,33 @@
 body {
     background: #fff;
     font-family: Helvetica, sans-serif;
+    width: 1280px;
+    height: 919px;
 }
 img{
-    border-top: 221px;
-    border-bottom: 492px;
-    border-left: 126px;
-    border-right: 127px;
-    width: 800px;
-    height: 227px;
+    position: fixed;
+    top: 189px;
+    left: 240px;
+    right: 240px;
+    bottom: 503px;
     flex-shrink: 0;
     border-radius: 20px;
     background: #D9D9D9;
 }
 #Logo{
-    border-top: 117px;
-    border-bottom: 762px;
-    border-left: 242px;
-    border-right: 998px;
+    position: fixed;
+    top: 117px;
+    left: 242px;
     width: 40px;
     height: 40px;
     flex-shrink: 0;
+    border-radius: 0px;
     fill: #424242;
 }
 h1{
-    border-top: 144px;
-    border-bottom: 758px;
-    border-left: 299px;
-    border-right: 561px;
+    position: fixed;
+    top: 77px;
+    left: 299px;
     display: flex;
     width: 420px;
     height: 47px;
@@ -41,11 +41,17 @@ h1{
     font-weight: 700;
     line-height: normal;
 }
+#HistoryTitle{
+    position: fixed;
+    top: 474px ;
+    left: 274px;
+}
+#ExampleTitle{
+    position: fixed;
+    top: 474px ;
+    left: 688px;
+}
 h2{
-    border-top: 144px;
-    border-bottom: 758px;
-    border-left: 299px;
-    border-right: 561px;
     width: 319px;
     height: 33px;
     flex-shrink: 0;
@@ -57,6 +63,13 @@ h2{
     line-height: normal;
 }
 p{
+    position: fixed;
+    top: 528px ;
+    left: 274px;
+    border-top: 528px;
+    border-bottom: 128px;
+    border-left: 274px;
+    border-right: 686px;
     width: 320px;
     height: 263px;
     flex-shrink: 0;
@@ -68,6 +81,9 @@ p{
     line-height: 26px; /* 144.444% */
 }
 #example{
+    position: fixed;
+    top: 528px ;
+    left: 688px;
     width: 320px;
     height: 263px;
     flex-shrink: 0;
@@ -79,10 +95,46 @@ p{
     line-height: 26px; /* 144.444% */
 }
 #code{
-    color: #FFF;
+    position: fixed;
+    top: 568px ;
+    left: 188px;
+    text-indent: 10px;
+    line-height: 0.5;
+    color:#E9EAEC;
     font-family: Courier;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    white-space: pre-wrap;
+}
+#HistoryBox{
+    position: fixed;
+    top: 478px ;
+    left: 242px;
+    width: 384px;
+    height: 373px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #E9EAEC;
+}
+#ExampleBox{
+    position: fixed;
+    top: 478px ;
+    left: 656px;
+    width: 384px;
+    height: 373px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #E9EAEC;
+}
+#CodeBox{
+    position: fixed;
+    top: 576px ;
+    left: 656px;
+    width: 384px;
+    height: 275px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 20px 20px;
+    background: #424242;
 }
