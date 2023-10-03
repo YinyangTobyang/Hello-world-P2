@@ -41,6 +41,12 @@ h1{
     font-weight: 700;
     line-height: normal;
 }
+#name{
+    position: fixed;
+    top: 87px;
+    left: 775px;
+    font-size: 36px;
+}
 #HistoryTitle{
     position: fixed;
     top: 474px ;
